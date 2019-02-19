@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Fragmentos</string>
+    <string name="buttonOpcionUno_Text">OPCION UNO</string>
+    <string name="buttonOpcionDos_Text">OPCION DOS</string>
+    <string name="buttonOpcionTres_Text">OPCION TRES</string>
 </resources>
