@@ -6,14 +6,40 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Stack;
+import java.util.StringTokenizer;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+    Operaciones operacion = new Operaciones();
+    private String expresion="";
     TextView textView;
-    @Override
-    public void onClick(View v){
-        String texto = textView.getText().toString() + ((Button) v).getText().toString();
-        textView.setText(texto);
 
+
+    public void construyeExpresion(String texto){
+        if(texto.equals(".") || !operacion.isOperador(texto))
+            expresion += texto;
+        else
+            expresion += " "+texto +" ";
+    }
+
+    @Override
+    public void onClick(View v) {
+        String texto = ((Button) v).getText().toString();
+        if (texto.equals("=")) {
+            StringTokenizer st = new StringTokenizer(expresion);
+            String cadenaPostFija = operacion.convertirPostFijo(st);
+            st = new StringTokenizer(cadenaPostFija);
+            String resultado = operacion.expresionFinal(st);
+            textView.setText(resultado);
+        }else if(texto.equals("C")){
+            textView.setText("");
+            expresion="";
+        }
+        else{
+            construyeExpresion(texto);
+            textView.setText(expresion);
+        }
     }
 
     @Override

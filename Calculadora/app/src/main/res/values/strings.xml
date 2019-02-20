@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">aplication</string>
-    <string name="TextView_Expresion">0</string>
+    <string name="TextView_Expresion"></string>
     <string name="buttonDigito0_Text">0</string>
     <string name="buttonDigito1_Text">1</string>
     <string name="buttonDigito2_Text">2</string>
@@ -19,8 +19,8 @@
     <string name="buttonOperadorClear_Text">C</string>
     <string name="buttonOperadorParIzquierdo_Text">(</string>
     <string name="buttonOperadorParDerecho_Text">)</string>
-    <string name="buttonOperadorSeno_Text">Sin()</string>
-    <string name="buttonOperadorCoseno_Text">Cos()</string>
-    <string name="buttonOperadorSecante_Text">Sec()</string>
-    <string name="buttonOperadorCosecante_Text">Csc()</string>
+    <string name="buttonOperadorSeno_Text">Sin</string>
+    <string name="buttonOperadorCoseno_Text">Cos</string>
+    <string name="buttonOperadorSecante_Text">Sec</string>
+    <string name="buttonOperadorCosecante_Text">Csc</string>
 </resources>
