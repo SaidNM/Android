@@ -6,12 +6,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ButtonsFragment extends Fragment {
+public class ButtonsFragment extends Fragment implements View.OnClickListener {
 
 
     public ButtonsFragment() {
@@ -26,4 +27,8 @@ public class ButtonsFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_buttons, container, false);
     }
 
+    @Override
+    public void onClick(View v) {
+        String texto = ((Button) v).getText().toString();
+    }
 }
