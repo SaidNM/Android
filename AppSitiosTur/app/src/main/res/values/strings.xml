@@ -3,12 +3,12 @@
     <string name="title_activity_maps">Map</string>
 
     <!-- Buttons -->
-    <string name="bellasArtes_text">AppSitiosTur</string>
-    <string name="escom_Text">AppSitiosTur</string>
-    <string name="cic_Text">AppSitiosTur</string>
-    <string name="Zocalo_Text">AppSitiosTur</string>
-    <string name="Guadalajara_text">AppSitiosTur</string>
-    <string name="Puebla_Text">AppSitiosTur</string>
+    <string name="bellasArtes_text">Bellas Artes</string>
+    <string name="escom_Text">ESCOM</string>
+    <string name="cic_Text">CIC</string>
+    <string name="Zocalo_Text">Zocalo</string>
+    <string name="Guadalajara_text">Guadalajara</string>
+    <string name="Puebla_Text">Puebla</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

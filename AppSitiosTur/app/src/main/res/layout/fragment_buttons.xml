@@ -19,18 +19,21 @@
             android:orientation="horizontal"
             >
             <Button
+                android:id="@+id/buttonBellasArtes"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/bellasArtes_text"
                 />
             <Button
+                android:id="@+id/buttonEscom"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/escom_Text"
                 />
             <Button
+                android:id="@+id/buttonCIC"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -46,18 +49,21 @@
             android:orientation="horizontal"
             >
             <Button
+                android:id="@+id/buttonZocalo"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/Zocalo_Text"
                 />
             <Button
+                android:id="@+id/buttonGuadalajara"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/Guadalajara_text"
                 />
             <Button
+                android:id="@+id/buttonPuebla"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
